@@ -1,0 +1,63 @@
+.dt {
+    display: table;
+}
+
+.dtc {
+    display: table-cell;
+}
+
+.fw6 {
+    font-weight: 600;
+}
+
+.vh-100 {
+    height: 100vh;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.white {
+    color: #fff;
+}
+
+.bg-article {
+    background: #076585;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #fff, #076585);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #fff, #076585); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.ph3 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.tc {
+    text-align: center;
+}
+
+.f6 {
+    font-size: .875rem;
+}
+
+.v-mid {
+    vertical-align: middle;
+}
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+    .f2-m {
+        font-size: 2.25rem;
+    }
+}
+
+@media screen and (min-width: 60em) {
+    .ph4-l {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .f-subheadline-l {
+        font-size: 5rem;
+    }
+}
